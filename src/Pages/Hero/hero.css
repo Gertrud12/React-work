@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600&family=Mulish:wght@300;400;700&family=Roboto:ital@1&family=Rubik+Moonrocks&display=swap');
+
+
+*{
+    font-family: "Mulish" "sans-serif";
+}
+
+.health h2{
+    font-weight: "700";
+    
+}
+
+.health p{
+    font-weight: 300;
+    color: #7D7987;
+}
+
+.first-btn{
+    outline: none;
+    box-shadow: none;
+    border: 0;
+    background-color: #458FF6;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 100px;
+    width: 35%;
+    margin-top: 5px;
+}
+
+.health-img img{
+    width: 400px;
+}
+
+.health{
+    margin: 17% auto;
+}
