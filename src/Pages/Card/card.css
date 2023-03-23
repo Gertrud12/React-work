@@ -5,9 +5,12 @@
     font-family: "Mulish" "sans-serif";
 }
 
-/* .card-section{
-    margin-right: 10px;
-} */
+ .card-section{
+    max-width: 70%;
+} 
+.card-section{
+    width: 100%;
+}
 
 .card-body{
     display: flex;
@@ -20,24 +23,22 @@
 .my-card{
     box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
     border-radius: 20px;
-    max-width: 50% !important;
+    max-width: 100% !important;
     
 }
 
 .image-section img{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    width: 100%;
 }
 
-.card-body-section{
-    padding-left: 2%;
-    padding-top: 5%;
-}
 
 .card-body-section h3{
     font-style: normal;
     font-weight: 700;
     font-size: 21px;
+    text-align: center;
 }
 
 .card-body-section p{
@@ -46,6 +47,8 @@
     font-size: 16px;
     color: #7D7987;
     position: relative;
+    text-align: center;
+
 }
 .card-para{
     display: flex;
@@ -67,4 +70,19 @@ i{
     color:#4089ED ;
     margin-left: 45%;
     margin-top: 5%;
+}
+
+@media screen and (max-width = 1200){
+
+    .image-section img{
+        width: 100%;
+    }
+    .my-card{
+        margin-top: 50px;
+    }
+
+    .card-body{
+        max-width: 70%;
+        padding: 0%;
+    }
 }

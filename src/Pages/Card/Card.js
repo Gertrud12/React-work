@@ -6,9 +6,10 @@ import Picture3 from "../../images/image 3.png";
 
 function Card() {
   return (
-    <div className="card-section">
-      <div className="card-body">
-        <div className="my-card">
+    <div className="container">
+      <div className="row">
+      <div className="col-sm-12 col-md-12 col-lg-4">
+      <div className="my-card">
           <div className="image-section">
             <img src={Picture1} />
           </div>
@@ -28,8 +29,9 @@ function Card() {
 
           
         </div>
-
-        <div className="my-card">
+      </div>
+      <div className="col-sm-12 col-md-12 col-lg-4">
+      <div className="my-card">
           <div className="image-section">
             <img src={Picture2} />
           </div>
@@ -46,8 +48,9 @@ function Card() {
           <i class="bi bi-arrow-right"></i></p>
           </div>
         </div>
-
-        <div className="my-card">
+      </div>
+      <div className="col-sm-12 col-md-12 col-lg-4">
+      <div className="my-card">
           <div className="image-section">
             <img src={Picture3} />
           </div>
@@ -66,6 +69,10 @@ function Card() {
           </div>
         </div>
       </div>
+
+
+      </div>
+  
 
       <button className='card-btn'>View all</button>
 
