@@ -48,10 +48,10 @@
     color: #7D7987;
     position: relative;
     text-align: center;
+    padding: 20px;
 
 }
 .card-para{
-    display: flex;
     color: #4089ED !important;
     font-style: normal;
     font-weight: 600 !important;
@@ -62,15 +62,20 @@ i{
     padding-left: 10px;
 }
 
+
+
 .card-btn{
     border-radius: 50px;
     background-color: white;
     border-color: #4089ED;
     padding: 10px 50px;
     color:#4089ED ;
-    margin-left: 45%;
-    margin-top: 5%;
+    outline: none;
+    box-shadow: none;
+    border: 2px solid #4089ED;
 }
+
+
 
 @media screen and (max-width = 1200){
 

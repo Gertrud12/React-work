@@ -1,0 +1,12 @@
+.car-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.car-sect {
+    width: 100%;
+}
+
+@media screen and (max-width: 650px) {
+    
+}

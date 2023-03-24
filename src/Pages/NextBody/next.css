@@ -4,13 +4,16 @@
 *{
     font-family: "Mulish" "sans-serif";
 }
-.body-img-section {
-    width: 20%;
-}
+
+
 
 .body-other-section h3{
     padding-top: 25%;
     font-weight: 700;
+}
+
+.act {
+    width: 70%;
 }
 
 .body-other-section p{

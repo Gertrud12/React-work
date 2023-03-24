@@ -14,7 +14,9 @@ function Hero() {
                     healthcare, accessible on mobile and online<br/>for everyone
                   </p>
 
-                  <button className='first-btn'>Consult today</button>
+                  <div className="my-btn">
+                    <button className='first-btn'>Consult today</button>
+                  </div>
             </div>
 
         </div>

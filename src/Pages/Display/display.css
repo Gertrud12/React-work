@@ -1,7 +1,7 @@
 .car-cont {
     display: flex;
     justify-content: center;
-    width: 80%;
+    width: 100%;
     padding-top: 150px;
     padding-bottom: 50px;
     color: #fff;
@@ -45,11 +45,25 @@
 }
 
 .founder-details {
-    padding-right: 60px;
+    /* padding-right: 60px; */
 }
-
 .founder-details h5 {
     font-weight: 700;
+}
+
+@media screen and (max-width: 650px) {
+    br {
+        display: none;
+    }
+
+    .car-row {
+        padding: 10px 66px;
+        text-align: center;
+    }
+
+    .car-img {
+        text-align: center;
+    }
 }
 
 .custom-arrow {
@@ -73,11 +87,11 @@
 }
 
 .custom-arrow.left {
-    left: 550px;
+    left: 590px;
 }
 
 .custom-arrow.right {
-    right: 550px;
+    right: 600px;
 }
 
 .custom-dot {

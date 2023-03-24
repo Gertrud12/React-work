@@ -13,11 +13,11 @@ function Service() {
   return (
     <div className='service-main-section text-center'>
         <h3>Our services</h3>
-        <div className='image-section'>
+        <div>
             <img src= {Line}></img>
         </div>
             <div className='para mb-5'>
-                <p>
+                <p className='p-4'>
                 We provide to you the best choiches for you. Adjust it to your 
                 health needs and make sure your undergo treatment<br></br> with our highly qualified 
                 doctors you can consult with us which type of service is suitable for your health
@@ -58,7 +58,7 @@ function Service() {
                 </div>
                 <div className='col-sm-12 col-md-12 col-lg-4'>
                 <div className="service-second-section">
-                        <div className='service-img-section mb-3'>
+                        <div className='service-img-section3 mb-3'>
                             <img src={Book}/>
                         </div>
                         <div className='service-section-body'>
@@ -73,7 +73,7 @@ function Service() {
 
                 <div className='col-sm-12 col-md-12 col-lg-4'>
                 <div className="service-second-section">
-                        <div className='service-img-section mb-3'>
+                        <div className='service-img-section2 mb-3'>
                             <img src={Text}/>
                         </div>
                         <div className='service-section-body'>

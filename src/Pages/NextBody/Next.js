@@ -28,7 +28,7 @@ function Next() {
 
         <div className='col-sm-12 col-md-12 col-lg-5'>
             <div className='body-img-section'>
-                <img src={illustration}/>
+                <img src={illustration} className="act"/>
             </div>
         </div>
 

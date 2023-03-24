@@ -72,9 +72,10 @@ function Card() {
 
 
       </div>
-  
 
-      <button className='card-btn'>View all</button>
+      <div className="btn-card text-center mt-4">
+        <button className='card-btn'>View all</button>
+      </div>
 
     </div>
   );

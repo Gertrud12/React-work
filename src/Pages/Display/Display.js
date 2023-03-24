@@ -28,7 +28,7 @@ function Display() {
   const CustomLeftArrow = ({ onClick }) => {
     return (
       <button className="custom-arrow left" onClick={onClick}>
-        <i class="bi bi-arrow-left" />
+        <i class="bi bi-arrow-right" />
       </button>
     );
   };
@@ -36,7 +36,7 @@ function Display() {
   const CustomRightArrow = ({ onClick }) => {
     return (
       <button className="custom-arrow right" onClick={onClick}>
-        <i class="bi bi-arrow-right" />
+        <i class="bi bi-arrow-left" />
       </button>
     );
   };

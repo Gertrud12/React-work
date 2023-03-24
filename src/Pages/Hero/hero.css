@@ -23,14 +23,23 @@
     color: #FFFFFF;
     padding: 10px 20px;
     border-radius: 100px;
-    width: 35%;
     margin-top: 5px;
 }
 
 .health-img img{
-    width: 400px;
+    width: 100%;
 }
 
 .health{
     margin: 17% auto;
+}
+
+.row {
+    margin: 0 !important;
+}
+
+@media screen and (max-width: 992px) {
+    .my-btn {
+        text-align: center;
+    }
 }
